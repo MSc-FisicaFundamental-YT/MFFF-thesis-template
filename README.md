@@ -10,8 +10,8 @@ Read the style guide first: [`style_guide/style_guide.pdf`](style_guide/style_gu
 
 | File / folder | Content |
 |---|---|
-| `main.tex` | Main file, the one you compile. Fill in your details for the cover page (title in English after "Título:"; name, ID number, supervisor, month and year in Spanish). Write the Dedicatoria, Agradecimiento, Resumen and Abstract here, and choose the citation style (APA-like by default). It also has an optional *Publications* section, commented out: uncomment it if parts of the thesis are published, submitted or preprints, and list the papers with their DOI or arXiv links. |
-| `content/` | One file per chapter (`01_introduction.tex` to `05_conclusions.tex`) and one per appendix (`Appendix_A.tex`). Write your thesis here. You can rename, add or remove chapters; update the `\input` lines in `main.tex`. |
+| `main.tex` | Main file, please compile this one. If you have publications, uncomment the disclaimer section. |
+| `content/` | One file per chapter (`01_introduction.tex` to `05_conclusions.tex`) and one per appendix (`Appendix_A.tex`). Write there. You can rename, add or remove chapters; update the `\input` lines in `main.tex`. |
 | `images/logos/` | Yachay Tech logo used on the cover page. |
 | `images/plots/` | Your figures. Use vector formats (PDF, EPS) when possible, or images of at least 300 dpi. `sine.eps` is an example figure used by the style guide. |
 | `thesis.bib` | Your references in BibTeX format. It contains a few example entries. |
@@ -61,4 +61,4 @@ Until you cite something, BibTeX prints the message "I found no \citation comman
 
 ## Credits
 
-CPhys+ thesis template, Yachay Tech. Created by D. Villarruel (2025), updated by Y. Males-Araujo (2026), and adapted for the MSc in Physics (Fundamental Physics) in 2026.
+Template by Yachay Tech University. Created by [D. Villarruel-Yánez](https://github.com/dvillarruelyanez), updated by [Y. Males-Araujo ](https://github.com/whyyorlantaken), and adapted for the MSc in Physics (Fundamental Physics) in 2026.
