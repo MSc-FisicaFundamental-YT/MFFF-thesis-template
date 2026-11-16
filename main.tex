@@ -1,0 +1,128 @@
+% ABOUT TEMPLATE ----------------------------------------------
+
+% Yachay Tech University
+% Created by: D. Villarruel in 2025.
+% Updated by: Y. Males-Araujo in 2026.
+% Adapted for the MSc in Physics (Fundamental Physics) in 2026.
+
+% See style_guide/style_guide.tex for the format rules and examples
+% (citations, figures, tables). Compile it separately.
+
+% FORMAT ------------------------------------------------------
+
+\documentclass[a4paper,10pt,titlepage,twoside,openany]{thesis}
+\usepackage{silence}
+\WarningsOff[latex/command/changed]
+\usepackage{epigraph}
+\usepackage[toc,page]{appendix}
+\setlength\epigraphwidth{8cm}
+\setlength\epigraphrule{0pt}
+
+% COVER PAGE --------------------------------------------------
+
+\school{Escuela de Ciencias Físicas y Nanotecnología}
+
+\title{Título: Thesis title}
+\author{Student full legal name}
+\fullname{Student full legal name}
+\id{XXXXXXXXXX}
+
+\supervisor{Dr. Supervisor name}
+\degree{Magíster en Física con mención en Física Fundamental}
+
+\year{20XX}
+\month{mes}
+
+% REQUIRED PAGES ----------------------------------------------
+
+\begin{document}
+
+\prepages
+\maketitle
+\authorshippage
+\publicationpage
+
+% INITIAL SECTIONS --------------------------------------------
+
+\begin{dedication}
+
+\end{dedication}
+
+\begin{acknowledgements}
+
+\end{acknowledgements}
+
+\begin{resumen}
+
+\vspace*{1cm}
+
+\textbf{Palabras clave:}
+
+\end{resumen}
+
+\begin{abstract}
+
+\vspace*{1cm}
+
+\textbf{Key Words:}
+
+\end{abstract}
+
+% TABLE OF CONTENTS AND LISTS ---------------------------------
+
+\tableofcontents
+
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+
+% PUBLICATIONS (optional) -------------------------------------
+% If parts of this thesis are published, submitted or available as
+% preprints (e.g. arXiv), uncomment the lines below and list the papers
+% with their links (DOI or arXiv URL). Do not start an \item with [...].
+
+%\chapter*{Publications}
+%\addcontentsline{toc}{chapter}{Publications}
+%
+%Parts of the work presented in this thesis have been published, or submitted for publication, in the following articles:
+%
+%\begin{enumerate}[{[1]}]
+%    \item Surname, N., Surname, N. ([year]). [Title]. \textit{[Journal]}, [volume], [pages]. \url{https://doi.org/[DOI]}
+%    \item Surname, N., Surname, N. ([year]). [Title]. Submitted to \textit{[Journal]}. \url{https://arxiv.org/abs/[number]}
+%\end{enumerate}
+%
+%Chapter~[X] is based on article [1], and Chapter~[Y] on article [2]. [Describe briefly your own contribution to each article.]
+
+% MAIN CONTENT ------------------------------------------------
+
+\mainbody
+
+\input{content/01_introduction}
+
+\input{content/02_theoretical_background}
+
+\input{content/03_methodology}
+
+\input{content/04_results_discussion}
+
+\input{content/05_conclusions}
+
+% BIBLIOGRAPHY AND APPENDICES ---------------------------------
+
+% Citation style: APA-like by default. To use another style, comment
+% the apalike line and uncomment one of the others (e.g. aa_url for
+% astrophysics). Then delete main.aux and main.bbl and compile again.
+%\nocite{*}
+\bibliography{thesis}
+\bibliographystyle{apalike}   % default: APA-like, author-year
+%\bibliographystyle{aa_url}    % astrophysics (A&A, ApJ, MNRAS)
+%\bibliographystyle{plainnat}  % generic, author-year
+
+% Comment this if you don't have any appendices to include.
+\appendix
+\input{content/Appendix_A}
+
+
+\end{document}
