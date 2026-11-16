@@ -61,4 +61,4 @@ Until you cite something, BibTeX prints the message "I found no \citation comman
 
 ## Credits
 
-CPhys+ thesis template, Yachay Tech. Created by D. Villarruel (2025), updated by Y. Males-Araujo (2026), and adapted for the MSc in Physics (Fundamental Physics) in 2026.
+Created at Yachay Tech University: Created by [D. Villarruel-Yánez](https://github.com/dvillarruelyanez), updated by [Y. Males-Araujo ](https://github.com/whyyorlantaken), and adapted for the MSc in Physics (Fundamental Physics) in 2026.
