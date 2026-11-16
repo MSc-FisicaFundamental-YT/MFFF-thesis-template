@@ -10,7 +10,7 @@ Read the style guide first: [`style_guide/style_guide.pdf`](style_guide/style_gu
 
 | File / folder | Content |
 |---|---|
-| `main.tex` | Main file, please compile this one. |
+| `main.tex` | Main file, please compile this one. If you have publications, uncomment the disclaimer section. |
 | `content/` | One file per chapter (`01_introduction.tex` to `05_conclusions.tex`) and one per appendix (`Appendix_A.tex`). Write there. You can rename, add or remove chapters; update the `\input` lines in `main.tex`. |
 | `images/logos/` | Yachay Tech logo used on the cover page. |
 | `images/plots/` | Your figures. Use vector formats (PDF, EPS) when possible, or images of at least 300 dpi. `sine.eps` is an example figure used by the style guide. |
@@ -61,4 +61,4 @@ Until you cite something, BibTeX prints the message "I found no \citation comman
 
 ## Credits
 
-Created at Yachay Tech University: Created by [D. Villarruel-Yánez](https://github.com/dvillarruelyanez), updated by [Y. Males-Araujo ](https://github.com/whyyorlantaken), and adapted for the MSc in Physics (Fundamental Physics) in 2026.
+Template by Yachay Tech University. Created by [D. Villarruel-Yánez](https://github.com/dvillarruelyanez), updated by [Y. Males-Araujo ](https://github.com/whyyorlantaken), and adapted for the MSc in Physics (Fundamental Physics) in 2026.
